@@ -1,0 +1,240 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(../font/roboto.ttf);
+}
+
+@font-face {
+  font-family: 'Michroma';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../font/Michroma.woff2);
+}
+
+body{
+	margin: 0;
+	font-family: Roboto;
+}
+
+.fixed-nav{
+	position: fixed;
+	background-color: #202020;
+	width: 100%;
+	height: 75px;
+	z-index: 9998;
+	opacity: 0;
+}
+
+.nav-text h2{
+	margin-left: 20px;
+	font-size: 20px;
+	float: left;
+	color: #fff;
+	font-family: Michroma;
+}
+.modal{
+	z-index: 9999;
+	color: #1D1D1D;
+}
+
+.modal-content{
+	background-color: #5EB318;
+}
+
+.modal-header{
+	border-bottom: 5px solid #fff;
+}
+
+nav ul{
+	display: inline-block;
+	float: right;
+	margin-right: 100px;
+	margin-top: 23px;
+	list-style: none;
+    padding: 0;
+
+}
+
+nav ul li{
+	display: inline;
+	padding: 25px;
+	width: 100%;
+	height: 70px;
+	display: inline;
+	font-size: 20px;
+	margin-top: 10px;
+	margin: 0;
+	transition: ease-in 0.5s;
+}
+
+nav ul li a:hover,nav ul li a:active,nav ul li a:focus{
+	text-decoration: none;
+}
+
+
+
+
+nav li a{
+	color: white;
+	text-decoration: none;
+}
+
+
+
+#active{
+	background-color: grey;
+}
+
+#active {
+	height: 70
+}
+
+.sec-head{
+	font-family: Arial;
+	text-align: center;
+	color: #fff;
+	font-size: 30px;
+	margin-bottom: 40px;
+}
+
+
+/******* VIDEO *********/
+video { 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+  	background-size: cover;
+  	transition: 1s opacity;
+}
+
+#homebanner { 
+  background: rgba(0,0,0,0.5);
+  color: white;
+  text-align: center;
+  padding-top: 50vh;
+  padding-bottom: 50vh;
+  /*width: 33%;*/
+  font-size: 1.2rem;
+}
+#homebanner h1 {
+  font-size: 3rem;
+  font-family: Michroma;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 0;
+  letter-spacing: .3rem;
+}
+
+#homebanner img{
+	opacity: 0.4;
+	transition: 0.5s;
+}
+
+#homebanner img:hover{
+	opacity: 1;
+}
+
+
+.container{
+	margin: auto;
+	width: 95%;
+}
+
+.quarts{
+	float: left;
+	width: 20%;
+	margin: 20px;
+
+}
+
+.team-box{
+	text-align: center;
+	background-color: #fff;
+	height: 400px;
+	padding-top: 20px;
+	border-radius: 20px;
+}
+
+
+#team{
+	min-height: 100vh;
+	background-color: #59344F;
+	padding-top: 100px;
+}
+
+.team-box img{
+	border-radius: 100%;
+	height: 200px;
+}
+
+#services{
+	min-height: 100vh;
+	background-color: #5171A5;
+	padding-top: 100px;
+}
+
+.services-box{
+	text-align: center;
+}
+
+.services-box img{
+	height: 100px;
+	border-radius: 100%;
+}
+.services-box h3{
+	color: #fff;
+}
+
+.services-box p{
+	font-size: 15px;
+	font-weight: 300;
+	color: #fff;
+}
+
+
+#feedback{
+	min-height: 100vh;
+	padding-top: 100px;
+	background-color: #00B295;
+}
+
+.feedback-box{
+	text-align: center;
+	color: #fff;
+}
+
+
+#request{
+	padding-top: 100px;
+	min-height: 100vh;
+	background-color: #EB6534;
+}
+
+.proforma{
+	border-radius: 20px;
+	padding: 50px;
+	background-color: #3B3B3B;
+	color: #fff;
+	text-align: center;
+}
+
+
+.error{
+	border-color: red;
+	border-width: 3px;
+}
+
+.about{
+	padding-top: 450px;
+	padding-bottom: 200px;
+	color: #fff;
+}
+
+.about p{
+	font-size: 15px;
+}
